@@ -16,7 +16,6 @@ const VideoBackground = ({ movieId }) => {
           trailerVideo?.key +
           "?&autoplay=1&mute=1"
         }
-        frameborder="0"
       ></iframe>
     </div>
   );

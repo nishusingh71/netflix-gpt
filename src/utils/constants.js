@@ -3,10 +3,13 @@ export const LOGO_URL =
 export const USER_AVATAR =
   "https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg";
 
-  export const API_OPTIONS={
-    method: 'GET',
-    headers: {
-      accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjMTkwNmE3ZWRmZGY3ZTAzYTIwNTJjYTdiMjhjNDlhZiIsIm5iZiI6MTcyNTAxNjE3NC4yOTE4NjUsInN1YiI6IjVmMmU3MWJhYmU3ZjM1MDAzNWYzM2ZiMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.220D7icQgVBilPgoisPp07KYFnb3U9jWb0J-J_7qeEg'
-    }
-  };
+export const API_OPTIONS = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjMTkwNmE3ZWRmZGY3ZTAzYTIwNTJjYTdiMjhjNDlhZiIsIm5iZiI6MTcyNTAxNjE3NC4yOTE4NjUsInN1YiI6IjVmMmU3MWJhYmU3ZjM1MDAzNWYzM2ZiMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.220D7icQgVBilPgoisPp07KYFnb3U9jWb0J-J_7qeEg",
+  },
+};
+
+export const CDN_URL = "https://image.tmdb.org/t/p/w500/";
